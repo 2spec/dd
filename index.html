@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--   <link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>DD</title>
+
+
+
+
+    <link rel="stylesheet" href="css/zenburn.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>
+            <span class="left">D</span>
+            <span class="right">D</span>
+        </h1>
+        <div id="input">
+            <div id="text-input" class="square">
+                <pre><code id="raw-data" contenteditable="true"></code></pre>
+            </div>
+            <div id="button-input" class="square">
+                <div id="button-options">
+                    <button id="random-wiki">random wikipedia info</button>
+                    <button id="static-data">use static JSON</button>
+                </div>
+                <button id="display">Display Data</button>
+            </div>
+
+        </div>
+        <div id="data">
+            
+        </div>
+    </div>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+
